@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="volunteer-opportunity">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+  {% if page.signup_url %}
+    <p><a class="signup" href="{{ page.signup_url }}">Sign up</a></p>
+  {% endif %}
+  {% if page.contact %}
+    <p><small>Contact: {{ page.contact }}</small></p>
+  {% endif %}
+</article>

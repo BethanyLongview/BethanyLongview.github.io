@@ -1,0 +1,63 @@
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Bethany Lutheran Church</h2>
+          <p>{{ site.data.site.tagline }}</p>
+          <p>Part of the {{ site.data.site.denomination }}, {{ site.data.site.synod }}.</p>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">About</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ "/about/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About Bethany</a></li>
+            <li><a href="{{ "/pastor/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Pastor Susan</a></li>
+            <li><a href="{{ "/facility/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Weddings &amp; Facility Use</a></li>
+            <li><a href="{{ site.data.site.synod_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Our Synod</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">Connect</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ "/sunday-worship/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Sunday Worship</a></li>
+            <li><a href="{{ "/childrens-ministry/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Children &amp; Youth</a></li>
+            <li><a href="{{ "/events/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Events &amp; Groups</a></li>
+            <li><a href="{{ "/prayer/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Prayer Requests</a></li>
+            <li><a href="{{ "/contact/" | relative_url }}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Contact &amp; Find Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Visit Us</h2>
+          <div class="opening-hours">
+            <p class="pl-3">
+              {{ site.data.site.address | newline_to_br }}
+            </p>
+            <p class="pl-3">
+              <span class="mb-2"><strong>Sunday:</strong> Worship at 9:30 a.m.</span>
+              <span><strong>Office:</strong> Tue / Wed / Thu, 9:30 a.m. – 3:00 p.m.</span>
+            </p>
+            <p class="pl-3">
+              <span class="mb-2">Phone: <a href="tel:3605778240">{{ site.data.site.phone }}</a></span>
+              <span>Email: <a href="mailto:{{ site.data.site.contact_email }}">{{ site.data.site.contact_email }}</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Bethany Lutheran Church. All rights reserved.<br>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          <small>Template by <a href="https://colorlib.com" target="_blank">Colorlib</a> (CC BY 3.0).</small>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

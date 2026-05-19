@@ -1,0 +1,277 @@
+---
+layout: default
+title: Home
+---
+
+<div class="hero-wrap js-fullheight" style="background-image: url('{{ "/assets/images/bg_1.jpg" | relative_url }}');" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+      <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+        <h1 class="mb-0">Welcome to Bethany Lutheran Church</h1>
+        <h3 class="subheading mb-4 pb-1">An ELCA congregation in Longview, Washington — where all are welcome as Christ has welcomed us.</h3>
+        <p>
+          <a href="{{ "/contact/" | relative_url }}" class="btn btn-primary py-3 px-4">Plan a Visit</a>
+          {% if site.data.site.youtube_playlist_url %}
+          <a href="{{ site.data.site.youtube_playlist_url }}" class="btn btn-white py-3 px-4"><span class="icon-play-circle"></span> Watch on YouTube</a>
+          {% endif %}
+        </p>
+        <div class="mouse">
+          <a href="#" class="mouse-icon">
+            <div class="mouse-wheel"><span class="ion-ios-arrow-down"></span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-intro py-5" style="background-image: url({{ "/assets/images/bg_4.jpg" | relative_url }});">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-6 ftco-animate">
+        <h2 class="subheading"><span class="icon-calendar"></span> Sunday Worship</h2>
+        <h2><a href="{{ "/sunday-worship/" | relative_url }}">{{ site.data.site.service_time }} &mdash; Word and Sacrament</a></h2>
+      </div>
+      <div class="col-md-6 pl-md-5 ftco-animate">
+        <p>Fellowship follows worship. Visitors are always welcome — no Lutheran background required.</p>
+        <p><a href="{{ "/sunday-worship/" | relative_url }}" class="btn btn-primary px-4 py-2">What to expect</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-daily-verse bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 daily-verse text-center p-5">
+        <span class="flaticon-bible"></span>
+        <h3 class="ftco-animate">"We are a family sharing love and care, where all are welcome as Christ has welcomed us."</h3>
+        <h4 class="h5 mt-4 font-weight-bold ftco-animate">&mdash; Bethany Lutheran's Mission</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-12 text-center heading-section ftco-animate">
+        <h2 class="mb-2"><span class="px-4">Life at Bethany</span></h2>
+        <span class="subheading">Where Faith Meets Community</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="d-flex services ftco-animate text-lg-right">
+          <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-praying"></span></div>
+          <div class="media-body pr-lg-5">
+            <h3 class="heading mb-3"><a href="{{ "/worship/" | relative_url }}">Worship</a></h3>
+            <p>Word and Sacrament every Sunday at 9:30 a.m., with music that blends hymns, contemporary praise, and modern Christian songs.</p>
+          </div>
+        </div>
+        <div class="d-flex services ftco-animate text-lg-right">
+          <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-church"></span></div>
+          <div class="media-body pr-lg-5">
+            <h3 class="heading mb-3"><a href="{{ "/childrens-ministry/" | relative_url }}">Children &amp; Youth</a></h3>
+            <p>Small Seeds (elementary) and Sprouts (middle &amp; high school) meet Saturdays. Confirmation runs as a three-year journey.</p>
+          </div>
+        </div>
+        <div class="d-flex services ftco-animate text-lg-right">
+          <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-bible"></span></div>
+          <div class="media-body pr-lg-5">
+            <h3 class="heading mb-3"><a href="{{ "/sermons/" | relative_url }}">Sermons</a></h3>
+            <p>Catch up on Sunday or revisit a favorite — full services and sermons are archived on YouTube.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="d-flex services ftco-animate text-lg-left">
+          <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-social-care"></span></div>
+          <div class="media-body pl-lg-5">
+            <h3 class="heading mb-3"><a href="{{ "/events/" | relative_url }}">Groups &amp; Events</a></h3>
+            <p>Bible study, breakfast group, women's group, and seasonal services — there's a way in for every season of life.</p>
+          </div>
+        </div>
+        <div class="d-flex services ftco-animate text-lg-left">
+          <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rings"></span></div>
+          <div class="media-body pl-lg-5">
+            <h3 class="heading mb-3"><a href="{{ "/facility/" | relative_url }}">Weddings &amp; Facility Use</a></h3>
+            <p>Sanctuary, Fellowship Hall, and Faith Room are available for weddings, funerals, receptions, and community meetings.</p>
+          </div>
+        </div>
+        <div class="d-flex services ftco-animate text-lg-left">
+          <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-promotion"></span></div>
+          <div class="media-body pl-lg-5">
+            <h3 class="heading mb-3"><a href="{{ "/prayer/" | relative_url }}">Prayer Requests</a></h3>
+            <p>Share a prayer concern privately with Pastor Susan and the Bethany prayer team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-12 text-center heading-section heading-section-light ftco-animate">
+        <h2 class="mb-2"><span class="px-4">Sunday Worship</span></h2>
+        <span class="subheading">Word and Sacrament</span>
+      </div>
+    </div>
+    <div class="row d-flex sermon-wrap">
+      <div class="col-md-6 d-flex align-items-stretch ftco-animate">
+        <div class="img" style="background-image: url({{ "/assets/images/sermon-1.jpg" | relative_url }});"></div>
+      </div>
+      <div class="col-md-6 py-4 text ftco-animate">
+        <h2 class="mb-4"><a href="{{ "/sunday-worship/" | relative_url }}">Join us Sunday at 9:30 a.m.</a></h2>
+        <div class="meta">
+          <p>
+            <span>With <a href="{{ "/pastor/" | relative_url }}" class="ptr">Pastor Susan Dollinger</a></span>
+            <span>At 2900 Parkview Dr., Longview, WA</span>
+            <span>Fellowship follows worship</span>
+          </p>
+        </div>
+        <p>Our music blends hymns new and old, contemporary praise, and modern Christian music. On the third Sunday of the month, our children and youth help lead worship through readings, candle lighting, and assisting with communion.</p>
+        <p class="mt-4 btn-customize">
+          <a href="{{ "/sunday-worship/" | relative_url }}" class="btn btn-primary px-4 py-3 mr-md-2">What to Expect</a>
+          {% if site.data.site.youtube_playlist_url %}
+          <a href="{{ site.data.site.youtube_playlist_url }}" class="btn btn-black px-4 py-3 ml-lg-2"><span class="icon-play"></span> Past Services</a>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-counter" id="section-counter">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-md-6 order-last d-flex flex-column align-items-stretch">
+        <div class="img d-flex align-self-stretch align-items-center justify-content-center" style="background-image:url({{ "/assets/images/about.jpg" | relative_url }});">
+          <div class="desc">
+            <h3><a href="{{ "/sunday-worship/" | relative_url }}" class="p-2">Sunday Services</a></h3>
+          </div>
+        </div>
+        <div class="img d-flex align-self-stretch align-items-center justify-content-center" style="background-image:url({{ "/assets/images/about-2.jpg" | relative_url }});">
+          <div class="desc">
+            <h3><a href="{{ "/announcements/" | relative_url }}" class="p-2">Announcements</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 px-5 py-5">
+        <div class="row justify-content-start pt-3 pb-3">
+          <div class="col-md-12 heading-section heading-section-no-line ftco-animate">
+            <h2 class="mb-4">About Bethany</h2>
+            <p>Bethany Lutheran Church has served Longview, Washington and the surrounding communities of Kelso, Stella, Rainier, and Kalama from our home in the Columbia Heights neighborhood. We are a congregation of the {{ site.data.site.denomination }}, part of the <a href="{{ site.data.site.synod_url }}">{{ site.data.site.synod }}</a>.</p>
+            <p><strong>Our Mission:</strong> <em>{{ site.data.site.mission }}</em></p>
+            <p><strong>Our Vision:</strong> <em>{{ site.data.site.vision }}</em></p>
+            <p><a href="{{ "/about/" | relative_url }}" class="btn btn-primary px-4 py-2">Learn more about Bethany</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 py-5">
+        <div class="heading-section heading-section-no-line ftco-animate mb-5">
+          <h2 class="mb-2">Upcoming Events &amp; Ongoing Groups</h2>
+          <span class="subheading">Beyond Sunday Morning</span>
+        </div>
+        <div class="event-wrap d-md-flex ftco-animate">
+          <div class="img" style="background-image: url({{ "/assets/images/sermon-1.jpg" | relative_url }});"></div>
+          <div class="text pl-md-5">
+            <h2 class="mb-3"><a href="{{ "/events/" | relative_url }}">Moments at Bethany</a></h2>
+            <div class="meta">
+              <p>
+                <span><i class="icon-calendar mr-2"></i> Wednesdays at 1:30 p.m.</span>
+                <span><i class="icon-my_location mr-2"></i> Lakeside or in the Faith Room</span>
+              </p>
+            </div>
+            <p>A weekly time for scripture and spiritual conversation.</p>
+            <p><a href="{{ "/events/" | relative_url }}" class="btn btn-primary">All events &amp; groups</a></p>
+          </div>
+        </div>
+        <div class="event-wrap d-md-flex ftco-animate">
+          <div class="img" style="background-image: url({{ "/assets/images/sermon-2.jpg" | relative_url }});"></div>
+          <div class="text pl-md-5">
+            <h2 class="mb-3"><a href="{{ "/events/" | relative_url }}">Women's Bible Study</a></h2>
+            <div class="meta">
+              <p>
+                <span><i class="icon-calendar mr-2"></i> Tuesdays at 10:30 a.m.</span>
+                <span><i class="icon-my_location mr-2"></i> Faith Room &amp; Zoom</span>
+              </p>
+            </div>
+            <p>Pray, read scripture, and share together. Bring your <em>Gather</em> magazine.</p>
+            <p><a href="{{ "/events/" | relative_url }}" class="btn btn-primary">All events &amp; groups</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex align-items-stretch">
+        <div class="subsermon p-5">
+          <h2 class="heading mb-5 ftco-animate">Recent Sermons</h2>
+          {% assign recent_sermons = site.sermons | sort: "date" | reverse %}
+          {% if recent_sermons.size > 0 %}
+            {% for sermon in recent_sermons limit: 3 %}
+              <a href="{{ sermon.youtube_url }}" class="sermon-wrap sermon-wrap-2 d-flex align-items-start py-3 ftco-animate">
+                <div class="icon"><span class="icon-play"></span></div>
+                <div class="desc">
+                  <h3>{{ sermon.title }}</h3>
+                  <span class="time">{{ sermon.date | date: "%B %-d, %Y" }}</span>
+                </div>
+              </a>
+            {% endfor %}
+            <p class="mt-4"><a href="{{ "/sermons/" | relative_url }}" class="btn-custom p-2 text-center">View all sermons</a></p>
+          {% else %}
+            <p>Sermons and full Sunday services are archived on YouTube.</p>
+            {% if site.data.site.youtube_playlist_url %}
+              <p class="mt-4"><a href="{{ site.data.site.youtube_playlist_url }}" class="btn-custom p-2 text-center"><span class="icon-play"></span> Watch on YouTube</a></p>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section ftco-gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row no-gutters">
+          <div class="col-md-6 ftco-animate">
+            <a href="{{ "/assets/images/image_1.jpg" | relative_url }}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({{ "/assets/images/image_1.jpg" | relative_url }});">
+              <div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+            </a>
+          </div>
+          <div class="col-md-6 ftco-animate">
+            <a href="{{ "/assets/images/image_2.jpg" | relative_url }}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({{ "/assets/images/image_2.jpg" | relative_url }});">
+              <div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+            </a>
+          </div>
+          <div class="col-md-6 ftco-animate">
+            <a href="{{ "/assets/images/image_3.jpg" | relative_url }}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({{ "/assets/images/image_3.jpg" | relative_url }});">
+              <div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+            </a>
+          </div>
+          <div class="col-md-6 ftco-animate">
+            <a href="{{ "/assets/images/image_4.jpg" | relative_url }}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({{ "/assets/images/image_4.jpg" | relative_url }});">
+              <div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex align-items-stretch">
+        {% include map.html aspect="1/1" %}
+      </div>
+    </div>
+  </div>
+</section>

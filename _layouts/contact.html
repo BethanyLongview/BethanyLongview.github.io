@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- assign s = site.data.site -%}
+<article class="contact-page">
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  <section class="contact-details">
+    <h2>Visit us</h2>
+    {% if s.address %}
+      <p class="address">{{ s.address | newline_to_br }}</p>
+    {% endif %}
+    {% if s.phone %}
+      <p class="phone"><strong>Phone:</strong> <a href="tel:{{ s.phone | replace: ' ', '' | replace: '-', '' | replace: '(', '' | replace: ')', '' }}">{{ s.phone }}</a></p>
+    {% endif %}
+    {% if s.contact_email %}
+      <p class="email"><strong>Email:</strong> <a href="mailto:{{ s.contact_email }}">{{ s.contact_email }}</a></p>
+    {% endif %}
+  </section>
+
+  {% include map.html %}
+
+  {%- comment -%}
+    TODO: contact / email form. The current bethanylongview.org has a working
+    form that the project brief says to preserve. Once we know how it's wired
+    (existing handler? swap to a second Formspree form?), drop it in here.
+  {%- endcomment -%}
+</article>

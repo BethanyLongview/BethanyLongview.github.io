@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{ "/assets/images/bg_2.jpg" | relative_url }}');" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-end justify-content-center">
+      <div class="col-md-9 ftco-animate pb-5 text-center">
+        <h1 class="mb-2 bread">{{ page.title }}</h1>
+        <p class="breadcrumbs"><span class="mr-2"><a href="{{ "/" | relative_url }}">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>{{ page.title }} <i class="ion-ios-arrow-forward"></i></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- comment -%}
+  Liturgical season banner — only on the Events & Activities page.
+  Colors driven by site.data.site.current_liturgical_season; Pastor Susan
+  switches the active season via Decap's Site Settings form.
+{%- endcomment -%}
+{% if page.url contains "/events" %}
+  {%- assign season = site.data.site.current_liturgical_season | default: "ordinary" -%}
+  {%- case season -%}
+    {%- when "advent"    -%}{%- assign s_label = "Advent"        -%}{%- assign s_bg = "#3b2a72" -%}{%- assign s_fg = "#ffffff" -%}{%- assign s_accent = "#a99cd8" -%}
+    {%- when "christmas" -%}{%- assign s_label = "Christmas"     -%}{%- assign s_bg = "#f7f0d9" -%}{%- assign s_fg = "#1a1a1a" -%}{%- assign s_accent = "#c9a227" -%}
+    {%- when "epiphany"  -%}{%- assign s_label = "Epiphany"      -%}{%- assign s_bg = "#f4f7f0" -%}{%- assign s_fg = "#1a1a1a" -%}{%- assign s_accent = "#3f7d3f" -%}
+    {%- when "lent"      -%}{%- assign s_label = "Lent"          -%}{%- assign s_bg = "#4a2c5a" -%}{%- assign s_fg = "#ffffff" -%}{%- assign s_accent = "#c9b5d1" -%}
+    {%- when "easter"    -%}{%- assign s_label = "Easter"        -%}{%- assign s_bg = "#fff8e1" -%}{%- assign s_fg = "#1a1a1a" -%}{%- assign s_accent = "#c9a227" -%}
+    {%- when "pentecost" -%}{%- assign s_label = "Pentecost"     -%}{%- assign s_bg = "#a02020" -%}{%- assign s_fg = "#ffffff" -%}{%- assign s_accent = "#ffd166" -%}
+    {%- else             -%}{%- assign s_label = "Ordinary Time" -%}{%- assign s_bg = "#3f7d3f" -%}{%- assign s_fg = "#ffffff" -%}{%- assign s_accent = "#dfe7d8" -%}
+  {%- endcase -%}
+  <style>
+    .season-banner { background: {{ s_bg }}; color: {{ s_fg }}; padding: 2rem 0; }
+    .season-banner .season-eyebrow { font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.8; }
+    .season-banner h2 { color: {{ s_fg }}; margin: 0.25rem 0 0; font-weight: 700; }
+    .season-banner .season-accent { display: inline-block; width: 3rem; height: 3px; background: {{ s_accent }}; margin-top: 0.75rem; }
+    .page-content--events h2 { color: {{ s_bg }}; }
+  </style>
+  <section class="season-banner" data-season="{{ season }}">
+    <div class="container">
+      <p class="season-eyebrow mb-0">The Church Year</p>
+      <h2>{{ s_label }}</h2>
+      <span class="season-accent"></span>
+    </div>
+  </section>
+{% endif %}
+
+<section class="ftco-section page-content{% if page.url contains "/events" %} page-content--events{% endif %}">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

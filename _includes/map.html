@@ -1,0 +1,15 @@
+{%- comment -%}
+  Embedded Google Map showing the Bethany Lutheran Church location.
+  Uses Google's "Share -> Embed a map" iframe — no API key, no billing.
+  Wrapper uses `aspect-ratio` for responsive sizing; iframe fills the wrapper.
+  Override the height by passing `aspect` (e.g. {% include map.html aspect="16/9" %}).
+{%- endcomment -%}
+<div class="map-embed" style="aspect-ratio: {{ include.aspect | default: '4 / 3' }}; max-width: 100%; margin: 1rem 0;">
+  <iframe
+    title="Map showing the location of Bethany Lutheran Church in Longview, Washington"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2763.6338847789266!2d-122.93903150000001!3d46.15803609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54946ce767907d97%3A0xe770aa915100458b!2sBethany%20Lutheran%20Church!5e0!3m2!1sen!2sus!4v1779222812553!5m2!1sen!2sus"
+    style="width: 100%; height: 100%; border: 0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

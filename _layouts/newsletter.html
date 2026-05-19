@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="newsletter">
+  <h1>{{ page.title }}</h1>
+  <p class="date">{{ page.date | date: "%B %Y" }}</p>
+  {% if page.pdf %}
+    <p><a href="{{ page.pdf }}">Download PDF</a></p>
+  {% endif %}
+  {% if page.summary %}
+    <p>{{ page.summary }}</p>
+  {% endif %}
+  {{ content }}
+</article>

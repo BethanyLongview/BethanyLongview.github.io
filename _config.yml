@@ -1,0 +1,67 @@
+title: Bethany Lutheran Church
+description: >-
+  Bethany Lutheran Church (ELCA) — Longview, Washington.
+url: "https://bethanylongview.github.io"
+baseurl: ""
+
+permalink: /:path/
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  newsletters:
+    output: true
+    permalink: /newsletters/:path/
+    sort_by: date
+  announcements:
+    output: true
+    permalink: /announcements/:path/
+    sort_by: date
+  sermons:
+    output: true
+    permalink: /sermons/:path/
+    sort_by: date
+  volunteer:
+    output: true
+    permalink: /volunteer/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: newsletters
+    values:
+      layout: newsletter
+  - scope:
+      path: ""
+      type: announcements
+    values:
+      layout: announcement
+  - scope:
+      path: ""
+      type: sermons
+    values:
+      layout: sermon
+  - scope:
+      path: ""
+      type: volunteer
+    values:
+      layout: volunteer
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
