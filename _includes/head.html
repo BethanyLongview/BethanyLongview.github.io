@@ -2,6 +2,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+{%- assign page_desc = page.description | default: site.data.site.tagline -%}
+<meta name="description" content="{{ page_desc }}">
+
+<link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
+<link rel="apple-touch-icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:image" content="{{ "/assets/images/social-card.jpg" | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ page_desc }}">
+<meta name="twitter:image" content="{{ "/assets/images/social-card.jpg" | absolute_url }}">
+
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
@@ -12,6 +29,13 @@
 <link rel="stylesheet" href="{{ "/assets/css/owl.carousel.min.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/owl.theme.default.min.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/magnific-popup.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/vendor/lightgallery/css/lightgallery-bundle.min.css" | relative_url }}">
+<style>
+  .lightgallery .gallery-tile { display: block; overflow: hidden; position: relative; cursor: pointer; }
+  .lightgallery .gallery-tile img { width: 100%; height: 220px; object-fit: cover; transition: transform .45s ease, opacity .3s ease; }
+  .lightgallery .gallery-tile:hover img { transform: scale(1.06); opacity: .9; }
+  @media (max-width: 767.98px) { .lightgallery .gallery-tile img { height: 180px; } }
+</style>
 
 <link rel="stylesheet" href="{{ "/assets/css/aos.css" | relative_url }}">
 

@@ -1,12 +1,18 @@
 ---
 title: Sunday Worship
 permalink: /sunday-worship/
+header_image: /assets/images/sanctuary-aisle.jpg
 order: 3
 ---
 
 We worship together for **Word and Sacrament every Sunday morning at 9:30 a.m.**, followed by fellowship time. Our music blends hymns new and old, contemporary praise songs, and modern Christian music.
 
 ## Holy Communion
+
+<figure class="figure w-100 mb-4">
+  <img src="{{ '/assets/images/pastor-communion.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Pastor Susan Dollinger serving Holy Communion to a member of the congregation" loading="lazy">
+  <figcaption class="figure-caption">Pastor Susan serves Holy Communion during Sunday worship.</figcaption>
+</figure>
 
 We celebrate the sacrament of Holy Communion as part of regular Sunday worship. *[Cadence and practice — needs confirmation from Pastor Susan.]*
 

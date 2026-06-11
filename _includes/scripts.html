@@ -19,3 +19,19 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="{{ "/assets/js/google-map.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+<script src="{{ "/assets/vendor/lightgallery/js/lightgallery.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/vendor/lightgallery/js/plugins/lg-zoom.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/vendor/lightgallery/js/plugins/lg-thumbnail.min.js" | relative_url }}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var gallery = document.getElementById('lightgallery');
+    if (gallery && typeof lightGallery === 'function') {
+      lightGallery(gallery, {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 400,
+        download: false,
+        selector: 'a'
+      });
+    }
+  });
+</script>

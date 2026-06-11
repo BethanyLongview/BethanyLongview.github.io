@@ -1,10 +1,16 @@
 ---
 title: Events & Activities
 permalink: /events/
+header_image: /assets/images/painting-night.jpg
 order: 8
 ---
 
 Life at Bethany happens all week long. Beyond Sunday worship, we gather for study, fellowship, prayer, and service — across seasons, ages, and stages of faith. Visitors are welcome at any of our ongoing groups.
+
+<figure class="figure w-100 mb-4">
+  <img src="{{ '/assets/images/breakfast-fellowship.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Members of Bethany gathered around a table for coffee and fellowship" loading="lazy">
+  <figcaption class="figure-caption">Fellowship and friendship are woven through everything we do.</figcaption>
+</figure>
 
 ## Moments at Bethany
 

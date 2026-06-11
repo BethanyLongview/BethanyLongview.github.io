@@ -1,6 +1,7 @@
 ---
 title: Sermons & Past Worship
 permalink: /sermons/
+header_image: /assets/images/worship-pews.jpg
 order: 7
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Newsletter Archive
 permalink: /newsletter-archive/
+header_image: /assets/images/narthex-cross.jpg
 order: 9
 ---
 

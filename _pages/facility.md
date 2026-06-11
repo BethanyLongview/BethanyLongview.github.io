@@ -1,6 +1,7 @@
 ---
 title: Facility Usage
 permalink: /facility/
+header_image: /assets/images/sanctuary-wide.jpg
 order: 6
 ---
 
@@ -15,6 +16,11 @@ Seats up to **150**. Available for weddings, funerals, and other ceremonies. Equ
 ### Fellowship Hall
 
 Seats up to **120**. Well suited for receptions, parties, celebrations, and larger meetings. Full kitchen access including refrigerator, double-oven stove, and dishwasher. A portable coffee station is available.
+
+<figure class="figure w-100 mb-4">
+  <img src="{{ '/assets/images/food-drive.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="The Bethany Fellowship Hall set up for a community gathering" loading="lazy">
+  <figcaption class="figure-caption">The Fellowship Hall hosts receptions, gatherings, and community events.</figcaption>
+</figure>
 
 ### Faith Room
 

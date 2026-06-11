@@ -1,10 +1,16 @@
 ---
 title: Meet Pastor Susan
 permalink: /pastor/
+header_image: /assets/images/sanctuary-banners.jpg
 order: 5
 ---
 
 **Rev. Susan Dollinger** has served as pastor of Bethany Lutheran since 2022. The congregation describes her as a warm, creative person through whom the love of the Lord shines.
+
+<figure class="figure w-100 mb-4">
+  <img src="{{ '/assets/images/pastor-baptism.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Pastor Susan Dollinger baptizing a young child at the baptismal font" loading="lazy">
+  <figcaption class="figure-caption">Pastor Susan welcomes a new member through the waters of Holy Baptism.</figcaption>
+</figure>
 
 ## A Little About Susan
 

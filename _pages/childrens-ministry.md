@@ -1,6 +1,7 @@
 ---
 title: Children & Youth Ministry
 permalink: /childrens-ministry/
+header_image: /assets/images/christmas-pageant.jpg
 order: 4
 ---
 
@@ -15,6 +16,11 @@ Games, Bible study, crafts, and time together for our elementary-aged kids. We m
 ## Sprouts (Middle & High School)
 
 Our middle and high school youth dig into scripture, ask hard questions, and grow in faith alongside friends. Sprouts also meets **Saturdays at 12:30 p.m.** and forms the core of our **three-year confirmation program**.
+
+<figure class="figure w-100 mb-4">
+  <img src="{{ '/assets/images/youth-garden-01.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Bethany youth planting seeds together at a community garden" loading="lazy">
+  <figcaption class="figure-caption">Sprouts youth serving and learning together at the community garden.</figcaption>
+</figure>
 
 ## Small Seeds and Sprouts Sunday
 
