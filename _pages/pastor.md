@@ -1,7 +1,7 @@
 ---
 title: Meet Pastor Susan
 permalink: /pastor/
-header_image: /assets/images/sanctuary-banners.jpg
+header_image: /assets/images/sanctuary-narthex.jpg
 order: 5
 ---
 

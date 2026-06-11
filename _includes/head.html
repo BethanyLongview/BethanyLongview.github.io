@@ -35,6 +35,14 @@
   .lightgallery .gallery-tile img { width: 100%; height: 220px; object-fit: cover; transition: transform .45s ease, opacity .3s ease; }
   .lightgallery .gallery-tile:hover img { transform: scale(1.06); opacity: .9; }
   @media (max-width: 767.98px) { .lightgallery .gallery-tile img { height: 180px; } }
+
+  /* Footer: drop the oversized 3rem left indent so widget links don't crowd/wrap */
+  .ftco-footer .ml-md-5 { margin-left: 0 !important; }
+
+  /* Homepage "Sunday Worship" intro band: cover the full width with a darker
+     overlay so the right-column text stays readable over any photo */
+  .ftco-intro .overlay { width: 100% !important; opacity: .65 !important; background: #02475a !important; }
+  .ftco-intro, .ftco-intro p, .ftco-intro h2 { color: #fff; }
 </style>
 
 <link rel="stylesheet" href="{{ "/assets/css/aos.css" | relative_url }}">

@@ -26,7 +26,7 @@ title: Home
   </div>
 </div>
 
-<section class="ftco-intro py-5" style="background-image: url({{ "/assets/images/sanctuary-narthex.jpg" | relative_url }});">
+<section class="ftco-intro py-5" style="background-image: url({{ "/assets/images/congregation.jpg" | relative_url }});">
   <div class="overlay"></div>
   <div class="container">
     <div class="row d-flex align-items-center">
@@ -250,31 +250,27 @@ title: Home
         <span class="subheading">A glimpse of our worship and life together</span>
       </div>
     </div>
+    <div class="row mb-4">
+      <div class="col-12">
+        {% include map.html aspect="16/9" %}
+      </div>
+    </div>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-12">
         <div id="lightgallery" class="row no-gutters lightgallery">
-          <a class="col-6 gallery-tile ftco-animate" href="{{ "/assets/images/sanctuary-aisle.jpg" | relative_url }}" data-lg-size="2000-1333">
-            <img class="img-fluid" src="{{ "/assets/images/sanctuary-aisle.jpg" | relative_url }}" alt="The sanctuary at Bethany Lutheran Church" loading="lazy">
-          </a>
-          <a class="col-6 gallery-tile ftco-animate" href="{{ "/assets/images/stained-glass.jpg" | relative_url }}" data-lg-size="1050-1400">
-            <img class="img-fluid" src="{{ "/assets/images/stained-glass.jpg" | relative_url }}" alt="Sunlight through the stained-glass windows" loading="lazy">
-          </a>
-          <a class="col-6 gallery-tile ftco-animate" href="{{ "/assets/images/congregation.jpg" | relative_url }}" data-lg-size="2000-1333">
+          <a class="col-6 col-md-3 gallery-tile ftco-animate" href="{{ "/assets/images/congregation.jpg" | relative_url }}" data-lg-size="2000-1333">
             <img class="img-fluid" src="{{ "/assets/images/congregation.jpg" | relative_url }}" alt="The Bethany congregation gathered together" loading="lazy">
           </a>
-          <a class="col-6 gallery-tile ftco-animate" href="{{ "/assets/images/painting-night.jpg" | relative_url }}" data-lg-size="1400-631">
+          <a class="col-6 col-md-3 gallery-tile ftco-animate" href="{{ "/assets/images/painting-night.jpg" | relative_url }}" data-lg-size="1400-631">
             <img class="img-fluid" src="{{ "/assets/images/painting-night.jpg" | relative_url }}" alt="Painting Night in the Fellowship Hall" loading="lazy">
           </a>
-          <a class="col-6 gallery-tile ftco-animate" href="{{ "/assets/images/youth-music.jpg" | relative_url }}" data-lg-size="640-480">
+          <a class="col-6 col-md-3 gallery-tile ftco-animate" href="{{ "/assets/images/youth-music.jpg" | relative_url }}" data-lg-size="640-480">
             <img class="img-fluid" src="{{ "/assets/images/youth-music.jpg" | relative_url }}" alt="Youth leading worship in music" loading="lazy">
           </a>
-          <a class="col-6 gallery-tile ftco-animate" href="{{ "/assets/images/youth-mural.jpg" | relative_url }}" data-lg-size="1050-1400">
+          <a class="col-6 col-md-3 gallery-tile ftco-animate" href="{{ "/assets/images/youth-mural.jpg" | relative_url }}" data-lg-size="1050-1400">
             <img class="img-fluid" src="{{ "/assets/images/youth-mural.jpg" | relative_url }}" alt="Youth painting a mural at the community garden" loading="lazy">
           </a>
         </div>
-      </div>
-      <div class="col-lg-6 d-flex align-items-stretch">
-        {% include map.html aspect="1/1" %}
       </div>
     </div>
   </div>

@@ -14,6 +14,9 @@ service_time: "Sundays at 9:30 a.m."
 current_liturgical_season: ordinary
 giving_url: ""
 youtube_playlist_url: "https://www.youtube.com/playlist?list=PLXv7eLxBEkhuWe7Dd4MWANs_iWK9JvmQC"
+facebook_url: "https://www.facebook.com/BethanyLutheranChurchLongview/"
+zoom_url: "https://zoom.us/j/6153119848"
+# Zoom passcode intentionally NOT stored here / published yet (pending Pastor Susan's OK)
 denomination: "Evangelical Lutheran Church in America (ELCA)"
 synod: "Southwestern Washington Synod"
 synod_url: "https://swwasynod.org/"

@@ -14,7 +14,7 @@ We worship together for **Word and Sacrament every Sunday morning at 9:30 a.m.**
   <figcaption class="figure-caption">Pastor Susan serves Holy Communion during Sunday worship.</figcaption>
 </figure>
 
-We celebrate the sacrament of Holy Communion as part of regular Sunday worship. *[Cadence and practice — needs confirmation from Pastor Susan.]*
+We celebrate Holy Communion **every Sunday**, and ours is an **open table**. You do not need to be a member of Bethany — or of the Lutheran church — to receive. All who seek Christ are welcome to come and share in the bread and wine.
 
 ## Special Sundays
 
@@ -23,7 +23,10 @@ We celebrate the sacrament of Holy Communion as part of regular Sunday worship. 
 
 ## Joining Online
 
-In-person worship is at 9:30 a.m. at 2900 Parkview Dr. Services are also available online via Zoom and Facebook. *[Zoom meeting ID and Facebook page link — needs current details.]*
+In-person worship is at 9:30 a.m. at 2900 Parkview Dr. Can't make it in person? Join us online:
+
+- **Zoom:** [Join the Sunday service on Zoom]({{ site.data.site.zoom_url }}) *(passcode is shared in the weekly announcements — contact the [church office](/contact/) if you need it)*
+- **Facebook:** [Bethany Lutheran Church, Longview]({{ site.data.site.facebook_url }}) — live and past services
 
 ## What to Expect
 
@@ -32,6 +35,6 @@ If it's your first Sunday with us:
 - Come as you are — dress is casual to business casual.
 - Parking is in the main lot off Parkview Drive; the sanctuary entrance is straight ahead.
 - An usher will hand you a bulletin and welcome you. Sit anywhere that looks comfortable.
-- Children are welcome in worship. *[Nursery availability — needs confirmation.]*
+- Children are welcome in worship — come as your family is.
 
 Questions before you visit? [Contact us](/contact/) and we'll be glad to help.

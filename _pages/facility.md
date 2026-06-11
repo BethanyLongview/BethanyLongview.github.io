@@ -18,8 +18,8 @@ Seats up to **150**. Available for weddings, funerals, and other ceremonies. Equ
 Seats up to **120**. Well suited for receptions, parties, celebrations, and larger meetings. Full kitchen access including refrigerator, double-oven stove, and dishwasher. A portable coffee station is available.
 
 <figure class="figure w-100 mb-4">
-  <img src="{{ '/assets/images/food-drive.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="The Bethany Fellowship Hall set up for a community gathering" loading="lazy">
-  <figcaption class="figure-caption">The Fellowship Hall hosts receptions, gatherings, and community events.</figcaption>
+  <img src="{{ '/assets/images/fellowship-hall-event.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="A celebration with friends and family in the Bethany Fellowship Hall" loading="lazy">
+  <figcaption class="figure-caption">The Fellowship Hall hosts receptions, parties, and community gatherings.</figcaption>
 </figure>
 
 ### Faith Room

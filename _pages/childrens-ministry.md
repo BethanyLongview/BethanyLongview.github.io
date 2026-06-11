@@ -29,5 +29,3 @@ On the **third Sunday of each month**, kids and youth help lead our 9:30 a.m. wo
 ## Get Connected
 
 To learn more or get your child connected, contact the church office at [secretary@bethanylongview.org](mailto:secretary@bethanylongview.org) or 360-577-8240.
-
-*[Nursery availability during Sunday worship — needs confirmation from Ginger.]*

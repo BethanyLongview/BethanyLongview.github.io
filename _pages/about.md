@@ -1,13 +1,13 @@
 ---
 title: About Bethany
 permalink: /about/
-header_image: /assets/images/congregation.jpg
+header_image: /assets/images/sanctuary-banners.jpg
 order: 1
 ---
 
 <figure class="figure w-100 mb-4">
-  <img src="{{ '/assets/images/sanctuary-banners.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="The Bethany Lutheran sanctuary with its wood-beamed ceiling and stained-glass windows" loading="lazy">
-  <figcaption class="figure-caption">Our sanctuary in Longview's Columbia Heights neighborhood.</figcaption>
+  <img src="{{ '/assets/images/congregation.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="The Bethany Lutheran congregation gathered together for worship" loading="lazy">
+  <figcaption class="figure-caption">A family sharing love and care — the people of Bethany Lutheran.</figcaption>
 </figure>
 
 Bethany Lutheran Church has served Longview, Washington and the surrounding communities of Kelso, Stella, Rainier, and Kalama from our home in the Columbia Heights neighborhood. We are a congregation of the Evangelical Lutheran Church in America (ELCA), part of the [Southwestern Washington Synod](https://swwasynod.org/) and the Lower Columbia Conference.

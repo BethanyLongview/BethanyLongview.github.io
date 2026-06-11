@@ -1,51 +1,62 @@
 ---
 layout: default
 ---
-<article class="prayer-page">
-  <h1>{{ page.title }}</h1>
-  {{ content }}
-
-  <form action="https://formspree.io/f/mdajazwe"
-        method="POST"
-        class="prayer-form">
-
-    <p>
-      <label>
-        Your name <span class="optional">(optional)</span>
-        <input type="text" name="name" autocomplete="name">
-      </label>
-    </p>
-
-    <p>
-      <label>
-        Your email <span class="optional">(optional — only if you'd like a response)</span>
-        <input type="email" name="email" autocomplete="email">
-      </label>
-    </p>
-
-    <p>
-      <label>
-        Prayer request
-        <textarea name="message" rows="6" required></textarea>
-      </label>
-    </p>
-
-    {%- comment -%}
-      Honeypot — visually hidden text input that real users won't see and
-      bots tend to fill in. Filled submissions are silently dropped by
-      Formspree and do not count against the monthly quota.
-    {%- endcomment -%}
-    <div class="hp" aria-hidden="true" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
-      <label>
-        Leave this field blank
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
-      </label>
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{ page.header_image | default: "/assets/images/altar-cross.jpg" | relative_url }}'); background-position: {{ page.header_position | default: 'top center' }};" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-end justify-content-center">
+      <div class="col-md-9 ftco-animate pb-5 text-center">
+        <h1 class="mb-2 bread">{{ page.title }}</h1>
+        <p class="breadcrumbs"><span class="mr-2"><a href="{{ "/" | relative_url }}">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>{{ page.title }} <i class="ion-ios-arrow-forward"></i></span></p>
+      </div>
     </div>
+  </div>
+</section>
 
-    <input type="hidden" name="_subject" value="Prayer request via bethanylongview.org">
+<section class="ftco-section page-content">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <article class="prayer-page">
+          {{ content }}
 
-    <p>
-      <button type="submit">Submit prayer request</button>
-    </p>
-  </form>
-</article>
+          <form action="https://formspree.io/f/mdajazwe"
+                method="POST"
+                class="prayer-form mt-4">
+
+            <div class="form-group">
+              <label for="prayer-name">Your name <span class="optional text-muted">(optional)</span></label>
+              <input type="text" id="prayer-name" name="name" class="form-control" autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="prayer-email">Your email <span class="optional text-muted">(optional — only if you'd like a response)</span></label>
+              <input type="email" id="prayer-email" name="email" class="form-control" autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="prayer-message">Prayer request</label>
+              <textarea id="prayer-message" name="message" rows="6" class="form-control" required></textarea>
+            </div>
+
+            {%- comment -%}
+              Honeypot — visually hidden text input that real users won't see and
+              bots tend to fill in. Filled submissions are silently dropped by
+              Formspree and do not count against the monthly quota.
+            {%- endcomment -%}
+            <div class="hp" aria-hidden="true" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
+              <label>
+                Leave this field blank
+                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+              </label>
+            </div>
+
+            <input type="hidden" name="_subject" value="Prayer request via bethanylongview.org">
+
+            <button type="submit" class="btn btn-primary py-3 px-4">Submit prayer request</button>
+          </form>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

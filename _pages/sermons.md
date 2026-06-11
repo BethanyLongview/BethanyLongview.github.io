@@ -5,10 +5,16 @@ header_image: /assets/images/worship-pews.jpg
 order: 7
 ---
 
-Catch up on a recent message or revisit a favorite. Our sermons and full Sunday services are archived on YouTube, free to watch any time.
+Catch up on a recent message or revisit a favorite. Our worship services are streamed and archived online, free to watch any time.
+
+{% if site.data.site.facebook_url %}
+[**Watch past services on Facebook →**]({{ site.data.site.facebook_url }})
+
+Our **Facebook page** is updated most regularly — it's the best place to find recent and live-streamed services.
+{% endif %}
 
 {% if site.data.site.youtube_playlist_url %}
-[**Watch all past sermons on YouTube →**]({{ site.data.site.youtube_playlist_url }})
+You'll also find an archive of sermons on our [**YouTube playlist**]({{ site.data.site.youtube_playlist_url }}).
 {% endif %}
 
 Whether you missed a Sunday, are traveling, or want to share a message with a friend, the archive is open to everyone.

@@ -2,29 +2,50 @@
 layout: default
 ---
 {%- assign s = site.data.site -%}
-<article class="contact-page">
-  <h1>{{ page.title }}</h1>
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{ page.header_image | default: "/assets/images/congregation.jpg" | relative_url }}'); background-position: {{ page.header_position | default: 'top center' }};" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-end justify-content-center">
+      <div class="col-md-9 ftco-animate pb-5 text-center">
+        <h1 class="mb-2 bread">{{ page.title }}</h1>
+        <p class="breadcrumbs"><span class="mr-2"><a href="{{ "/" | relative_url }}">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>{{ page.title }} <i class="ion-ios-arrow-forward"></i></span></p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  {{ content }}
+<section class="ftco-section page-content">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <article class="contact-page">
+          {{ content }}
 
-  <section class="contact-details">
-    <h2>Visit us</h2>
-    {% if s.address %}
-      <p class="address">{{ s.address | newline_to_br }}</p>
-    {% endif %}
-    {% if s.phone %}
-      <p class="phone"><strong>Phone:</strong> <a href="tel:{{ s.phone | replace: ' ', '' | replace: '-', '' | replace: '(', '' | replace: ')', '' }}">{{ s.phone }}</a></p>
-    {% endif %}
-    {% if s.contact_email %}
-      <p class="email"><strong>Email:</strong> <a href="mailto:{{ s.contact_email }}">{{ s.contact_email }}</a></p>
-    {% endif %}
-  </section>
+          <section class="contact-details mt-4">
+            <h2>Visit us</h2>
+            {% if s.address %}
+              <p class="address">{{ s.address | newline_to_br }}</p>
+            {% endif %}
+            {% if s.phone %}
+              <p class="phone"><strong>Phone:</strong> <a href="tel:{{ s.phone | replace: ' ', '' | replace: '-', '' | replace: '(', '' | replace: ')', '' }}">{{ s.phone }}</a></p>
+            {% endif %}
+            {% if s.contact_email %}
+              <p class="email"><strong>Email:</strong> <a href="mailto:{{ s.contact_email }}">{{ s.contact_email }}</a></p>
+            {% endif %}
+            {% if s.facebook_url %}
+              <p class="facebook"><strong>Facebook:</strong> <a href="{{ s.facebook_url }}" target="_blank" rel="noopener">Bethany Lutheran Church, Longview</a></p>
+            {% endif %}
+          </section>
 
-  {% include map.html %}
+          {% include map.html aspect="16/9" %}
 
-  {%- comment -%}
-    TODO: contact / email form. The current bethanylongview.org has a working
-    form that the project brief says to preserve. Once we know how it's wired
-    (existing handler? swap to a second Formspree form?), drop it in here.
-  {%- endcomment -%}
-</article>
+          {%- comment -%}
+            TODO: contact / email form. The current bethanylongview.org has a working
+            form that the project brief says to preserve. Once we know how it's wired
+            (existing handler? swap to a second Formspree form?), drop it in here.
+          {%- endcomment -%}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
