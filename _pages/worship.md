@@ -2,6 +2,7 @@
 title: Worship
 permalink: /worship/
 header_image: /assets/images/chancel-altar.jpg
+header_position: center 55%
 order: 2
 ---
 

@@ -2,6 +2,7 @@
 title: About Bethany
 permalink: /about/
 header_image: /assets/images/sanctuary-banners.jpg
+header_position: center 68%
 order: 1
 ---
 

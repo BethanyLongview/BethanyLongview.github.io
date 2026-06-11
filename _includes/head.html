@@ -43,6 +43,13 @@
      overlay so the right-column text stays readable over any photo */
   .ftco-intro .overlay { width: 100% !important; opacity: .65 !important; background: #02475a !important; }
   .ftco-intro, .ftco-intro p, .ftco-intro h2 { color: #fff; }
+
+  /* Tighten the expanded (dropdown) nav on desktop so all items stay within
+     the dark hero — otherwise lower links spill onto white content unreadably */
+  @media (min-width: 992px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link { padding-top: .4rem; padding-bottom: .4rem; }
+    .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu { padding-top: .25rem; padding-bottom: .25rem; }
+  }
 </style>
 
 <link rel="stylesheet" href="{{ "/assets/css/aos.css" | relative_url }}">

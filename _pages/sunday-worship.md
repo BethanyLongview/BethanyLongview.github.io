@@ -2,6 +2,7 @@
 title: Sunday Worship
 permalink: /sunday-worship/
 header_image: /assets/images/sanctuary-aisle.jpg
+header_position: center 62%
 order: 3
 ---
 
