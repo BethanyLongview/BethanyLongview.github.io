@@ -1,14 +1,33 @@
 ---
 layout: default
 ---
-<article class="newsletter">
-  <h1>{{ page.title }}</h1>
-  <p class="date">{{ page.date | date: "%B %Y" }}</p>
-  {% if page.pdf %}
-    <p><a href="{{ page.pdf }}">Download PDF</a></p>
-  {% endif %}
-  {% if page.summary %}
-    <p>{{ page.summary }}</p>
-  {% endif %}
-  {{ content }}
-</article>
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{ page.header_image | default: "/assets/images/narthex-cross.jpg" | relative_url }}'); background-position: {{ page.header_position | default: 'center 32%' }};">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-end justify-content-center">
+      <div class="col-md-9 ftco-animate pb-5 text-center">
+        <h1 class="mb-2 bread">{{ page.title }}</h1>
+        <p class="breadcrumbs">
+          <span class="mr-2"><a href="{{ "/" | relative_url }}">Home <i class="ion-ios-arrow-forward"></i></a></span>
+          <span class="mr-2"><a href="{{ "/newsletter-archive/" | relative_url }}">Newsletters <i class="ion-ios-arrow-forward"></i></a></span>
+          <span>{{ page.title }} <i class="ion-ios-arrow-forward"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section page-content">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <p class="mb-4"><a href="{{ "/newsletter-archive/" | relative_url }}">&larr; All newsletters</a></p>
+        {% if page.summary %}<p class="lead mb-4">{{ page.summary }}</p>{% endif %}
+        {% if page.pdf %}
+          {% include pdf-viewer.html src=page.pdf %}
+        {% endif %}
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

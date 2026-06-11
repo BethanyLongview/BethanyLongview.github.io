@@ -35,3 +35,61 @@
     }
   });
 </script>
+
+{% if page.layout == "newsletter" or page.needs_pdfjs %}
+<script src="{{ "/assets/vendor/pdfjs/pdf.min.js" | relative_url }}"></script>
+<script>
+  (function () {
+    if (!window.pdfjsLib) return;
+    pdfjsLib.GlobalWorkerOptions.workerSrc = '{{ "/assets/vendor/pdfjs/pdf.worker.min.js" | relative_url }}';
+
+    function isValidUploadPdf(u) {
+      return !!u && u.indexOf('/assets/uploads/') !== -1 && /\.pdf(\?|#|$)/i.test(u);
+    }
+
+    function render(el) {
+      var url = el.getAttribute('data-pdf-src');
+      if (el.getAttribute('data-pdf-from-query') === 'true') {
+        var p = new URLSearchParams(window.location.search).get('file') || '';
+        url = isValidUploadPdf(p) ? p : '';
+        var dl = el.querySelector('.pdf-download');
+        if (dl && url) dl.setAttribute('href', url);
+      }
+      var status = el.querySelector('.pdf-status');
+      var pages = el.querySelector('.pdf-pages');
+      if (!url) { if (status) status.textContent = 'No newsletter selected.'; return; }
+
+      var width = Math.min(el.clientWidth || 1000, 1000);
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+      pdfjsLib.getDocument(url).promise.then(function (pdf) {
+        if (status) status.style.display = 'none';
+        var chain = Promise.resolve();
+        for (var i = 1; i <= pdf.numPages; i++) {
+          (function (n) {
+            chain = chain.then(function () {
+              return pdf.getPage(n).then(function (page) {
+                var base = page.getViewport({ scale: 1 });
+                var vp = page.getViewport({ scale: (width / base.width) * dpr });
+                var canvas = document.createElement('canvas');
+                canvas.className = 'pdf-page-canvas';
+                canvas.width = vp.width;
+                canvas.height = vp.height;
+                pages.appendChild(canvas);
+                return page.render({ canvasContext: canvas.getContext('2d'), viewport: vp }).promise;
+              });
+            });
+          })(i);
+        }
+      }).catch(function (err) {
+        console.error('PDF.js failed to load', url, err);
+        if (status) status.textContent = 'This newsletter could not be displayed inline — please use the Open / Download button above.';
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.pdf-viewer').forEach(render);
+    });
+  })();
+</script>
+{% endif %}
