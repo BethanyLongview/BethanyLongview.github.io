@@ -32,12 +32,7 @@ Pastor Susan is available to officiate both on-site and off-site weddings and fu
 
 ## Pricing & Policies
 
-- Members receive discounted rates.
-- Non-member rentals start at **$150**.
-- Catering is available through the **Women of Bethany** at additional cost.
-- Alcohol is permitted at some events with prior authorization.
-
-*[Full current rate sheet and deposit policy — needs Ginger to confirm and add.]*
+Rates and policies vary by space and event. Please contact the church office for current pricing and details.
 
 ## Booking
 
