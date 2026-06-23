@@ -17,7 +17,7 @@ Once GitHub Pages finishes building, the site is at <https://bethanylongview.git
 | `index.html` | Home page (kept as full HTML for the hero / multi-section template look) |
 | `_pages/*.md` | Migrated content pages (About, Worship, Pastor, Facility, etc.) |
 | `contact.md`, `prayer.md` | Pages with custom layouts/forms (Google Maps embed; Formspree prayer form) |
-| `_layouts/` | Jekyll layouts. `page.html` includes the liturgical-season banner for `/events/`. |
+| `_layouts/` | Jekyll layouts. `page.html` includes the liturgical-season banner for `/groups/`. |
 | `_includes/` | Shared header, footer, head, scripts, map embed |
 | `_data/site.yml` | Site-wide settings — address, phone, mission, current liturgical season, etc. |
 | `_data/gallery.yml` | Photo gallery list (currently empty; placeholder images in `assets/images/`) |
