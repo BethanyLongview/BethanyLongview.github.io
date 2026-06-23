@@ -18,13 +18,13 @@ A weekly time for scripture and spiritual conversation. **Wednesdays at 1:30 p.m
 
 ## Breakfast Group
 
-An informal weekly breakfast gathering. **Tuesdays at 8:00 a.m.** at Corner Cafe on Commerce Street, Longview. Contact Bill Zimmerman or the church office for details.
+An informal weekly breakfast gathering. **Tuesdays at 8:00 a.m.** at Corner Cafe on Commerce Street, Longview. Contact Bob or the church office for details.
 
 ## Women's Bible Study
 
 > *We meet on Tuesday mornings at 10:30 a.m. to pray, read scripture, and share together.*
 
-Meets in the Faith Room and on Zoom. Participants bring their *Gather* magazine. Contact Kathy Newton or the church office.
+Meets in the Faith Room and on Zoom. Participants bring their *Gather* magazine. Contact Pastor Susan or the church office.
 
 ## Seasonal & Special Events
 
