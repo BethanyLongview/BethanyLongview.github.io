@@ -27,6 +27,9 @@
         <li class="nav-item{% if page.url contains "/pastor" %} active{% endif %}"><a href="{{ "/pastor/" | relative_url }}" class="nav-link">Pastor</a></li>
         <li class="nav-item{% if page.url contains "/facility" %} active{% endif %}"><a href="{{ "/facility/" | relative_url }}" class="nav-link">Facility Use</a></li>
         <li class="nav-item{% if page.url contains "/prayer" %} active{% endif %}"><a href="{{ "/prayer/" | relative_url }}" class="nav-link">Prayer</a></li>
+        {% if site.data.site.giving_url %}
+        <li class="nav-item"><a href="{{ site.data.site.giving_url }}" class="nav-link" target="_blank" rel="noopener">Giving</a></li>
+        {% endif %}
         <li class="nav-item{% if page.url contains "/contact" %} active{% endif %}"><a href="{{ "/contact/" | relative_url }}" class="nav-link">Contact</a></li>
       </ul>
     </div>

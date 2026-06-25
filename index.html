@@ -12,6 +12,9 @@ title: Home
         <h3 class="subheading mb-4 pb-1">An ELCA congregation in Longview, Washington — where all are welcome as Christ has welcomed us.</h3>
         <p>
           <a href="{{ "/contact/" | relative_url }}" class="btn btn-primary py-3 px-4">Plan a Visit</a>
+          {% if site.data.site.giving_url %}
+          <a href="{{ site.data.site.giving_url }}" class="btn btn-white py-3 px-4" target="_blank" rel="noopener"><span class="icon-heart"></span> Give Online</a>
+          {% endif %}
           {% if site.data.site.youtube_playlist_url %}
           <a href="{{ site.data.site.youtube_playlist_url }}" class="btn btn-white py-3 px-4"><span class="icon-play-circle"></span> Watch on YouTube</a>
           {% endif %}
