@@ -39,6 +39,22 @@ layout: default
               <textarea id="prayer-message" name="message" rows="6" class="form-control" required></textarea>
             </div>
 
+            <fieldset class="form-group">
+              <legend class="col-form-label pt-0">How would you like this request handled? <span class="optional text-muted">(optional)</span></legend>
+              <div class="form-check">
+                <input type="checkbox" id="prayer-private" name="private_pastor" value="Yes" class="form-check-input">
+                <label class="form-check-label" for="prayer-private">This request is private — for Pastor Susan only</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="prayer-team" name="prayer_team" value="Yes" class="form-check-input">
+                <label class="form-check-label" for="prayer-team">I would like to be added to the church prayer team</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="prayer-bulletin" name="bulletin" value="Yes" class="form-check-input">
+                <label class="form-check-label" for="prayer-bulletin">Please include this request in Sunday's bulletin</label>
+              </div>
+            </fieldset>
+
             {%- comment -%}
               Honeypot — visually hidden text input that real users won't see and
               bots tend to fill in. Filled submissions are silently dropped by

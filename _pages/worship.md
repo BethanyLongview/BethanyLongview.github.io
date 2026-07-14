@@ -13,11 +13,11 @@ Worship is the heart of life at Bethany. Each Sunday we gather around four simpl
 - **Prayer** for our congregation, community, and world
 - **God's Word** read and proclaimed
 
-We worship together for **Word and Sacrament every Sunday at 9:30 a.m.**, with fellowship to follow. Visitors are always welcome — no Lutheran background required.
+We worship together **every Sunday at 9:30 a.m.**, with fellowship to follow. Visitors are always welcome.
 
 <figure class="figure w-100 mb-4">
-  <img src="{{ '/assets/images/youth-music.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Bethany musicians and youth leading worship in song" loading="lazy">
-  <figcaption class="figure-caption">Our music blends hymns old and new with contemporary worship.</figcaption>
+  <img src="{{ '/assets/images/bethany-worship.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Pastor Susan leading Sunday worship at Bethany Lutheran" loading="lazy">
+  <figcaption class="figure-caption">Pastor Susan leading Sunday worship.</figcaption>
 </figure>
 
 ## Explore Further

@@ -6,7 +6,11 @@ header_position: center 62%
 order: 3
 ---
 
-We worship together for **Word and Sacrament every Sunday morning at 9:30 a.m.**, followed by fellowship time. Our music blends hymns new and old, contemporary praise songs, and modern Christian music.
+We worship together **every Sunday morning at 9:30 a.m.**, followed by fellowship time. Our music blends hymns new and old, contemporary praise songs, and modern Christian music.
+
+<p class="mt-3">
+  <a href="{{ site.data.site.giving_url }}" class="btn btn-primary py-2 px-4" target="_blank" rel="noopener"><span class="icon-heart mr-2"></span>Give Online</a>
+</p>
 
 ## Holy Communion
 

@@ -26,6 +26,12 @@ layout: default
             {% if s.address %}
               <p class="address">{{ s.address | newline_to_br }}</p>
             {% endif %}
+            {% if s.service_time %}
+              <p class="worship-time"><strong>Sunday Worship:</strong> {{ s.service_time }}</p>
+            {% endif %}
+            {% if s.office_hours %}
+              <p class="office-hours"><strong>Office hours:</strong> {{ s.office_hours }}</p>
+            {% endif %}
             {% if s.phone %}
               <p class="phone"><strong>Phone:</strong> <a href="tel:{{ s.phone | replace: ' ', '' | replace: '-', '' | replace: '(', '' | replace: ')', '' }}">{{ s.phone }}</a></p>
             {% endif %}
