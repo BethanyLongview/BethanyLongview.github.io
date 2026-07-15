@@ -8711,10 +8711,13 @@ h1, h2, h3, h4, h5,
     display: block; }
     .subsermon .sermon-wrap .meta p span a {
       color: rgba(255, 255, 255, 0.7); }
-  .subsermon .sermon-wrap .btn-custom {
+  .subsermon .btn-custom {
     color: #fff;
-    bordeR: 1px solid #fff;
+    border: 1px solid #fff;
     display: block; }
+    .subsermon .btn-custom:hover, .subsermon .btn-custom:focus {
+      background: #fff;
+      color: #048ba8; }
   .subsermon .sermon-wrap.sermon-wrap-2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
     .subsermon .sermon-wrap.sermon-wrap-2 span {
