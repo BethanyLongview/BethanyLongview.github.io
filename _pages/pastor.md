@@ -22,9 +22,17 @@ Pastor Susan brings together a wide range of gifts and interests — art and Bib
 
 **Secretary**
 
+<figure class="figure mb-4" style="max-width: 220px;">
+  <img src="{{ '/assets/images/ginger-garner.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Ginger Garner, church secretary at Bethany Lutheran" loading="lazy">
+</figure>
+
 ## Dorothy McMillan
 
 **Music Director**
+
+<figure class="figure mb-4" style="max-width: 220px;">
+  <img src="{{ '/assets/images/dorothy-mcmillan.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Dorothy McMillan, music director at Bethany Lutheran" loading="lazy">
+</figure>
 
 ## Get in Touch
 
