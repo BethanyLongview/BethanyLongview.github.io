@@ -32,10 +32,16 @@ There are two ways to edit, and you can mix them freely:
 
 ### One-time setup
 
+Copilot is **built into VS Code** — there's no extension to hunt down and install.
+
 1. Install [VS Code](https://code.visualstudio.com/) and [Git](https://git-scm.com/downloads).
-2. Sign in to VS Code with the GitHub account that has access to the church repository.
-   (Ask whoever manages the repo to add you as a collaborator.)
-3. Install the **GitHub Copilot** extension from the Extensions panel.
+2. Turn on Copilot: hover the **Copilot icon in the Status Bar** (along the bottom of the
+   window) and choose **Use AI Features**, then sign in with your GitHub account.
+   If you don't already pay for Copilot, this signs you up for the **free plan**, which
+   includes a monthly allowance of suggestions — no credit card, and plenty for the
+   occasional website edit.
+3. Make sure that GitHub account has access to the church repository — ask whoever
+   manages the repo to add you as a collaborator.
 4. Open the repository: **Source Control → Clone Repository →**
    `BethanyLongview/BethanyLongview.github.io`.
 
