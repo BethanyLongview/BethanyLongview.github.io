@@ -6,7 +6,3 @@ _site/
 .bundle/
 Gemfile.lock
 .DS_Store
-
-# Plaintext source of the private maintenance guide — NEVER commit this.
-# Only the encrypted site-guide/index.html belongs in the repo.
-_private-docs/

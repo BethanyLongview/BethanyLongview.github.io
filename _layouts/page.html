@@ -15,8 +15,8 @@ layout: default
 
 {%- comment -%}
   Liturgical season banner — only on the Events & Activities page.
-  Colors driven by site.data.site.current_liturgical_season; Pastor Susan
-  switches the active season via Decap's Site Settings form.
+  Colors driven by current_liturgical_season in _data/site.yml — edit that
+  file to switch the active season.
 {%- endcomment -%}
 {% if page.url contains "/events" %}
   {%- assign season = site.data.site.current_liturgical_season | default: "ordinary" -%}

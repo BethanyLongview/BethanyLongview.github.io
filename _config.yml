@@ -63,7 +63,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - MAINTENANCE.md
   - node_modules
   - vendor
-  - tools
-  - _private-docs
