@@ -76,7 +76,20 @@ That's the whole job — you never have to open or run Ghostscript yourself. It 
 `C:\Program Files\gs\`, and when the time comes you'll simply ask Copilot to use it
 (Section 7b). Copilot will find it and run it for you.
 
-### e. Tell Git who you are
+### e. Install ImageMagick (for basic image manipulation)
+
+ImageMagick lets Copilot perform simple image tasks like resizing, cropping, and format
+conversion without you needing to open a graphics editor.
+
+1. Go to **<https://imagemagick.org/script/download.php>**.
+2. Download the **Windows 64-bit** installer (recommended: the Q16 or Q16HDRI version).
+3. Run it and accept the defaults.
+4. Make sure the installer option to **Add application directory to your PATH** is checked.
+
+Once installed, Copilot can use the `magick` command directly from your workspace to resize
+or convert images for the site.
+
+### f. Tell Git who you are
 
 Git stamps your name on every change you make, so it needs to know who you are. Open
 Copilot Chat and paste this, substituting your own name and the email address on your
