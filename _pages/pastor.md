@@ -30,9 +30,16 @@ Pastor Susan brings together a wide range of gifts and interests — art and Bib
 
 **Music Director**
 
-<figure class="figure mb-4" style="max-width: 220px;">
-  <img src="{{ '/assets/images/dorothy-mcmillan.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Dorothy McMillan, music director at Bethany Lutheran" loading="lazy">
-</figure>
+<div class="row align-items-start mb-4">
+  <div class="col-md-4">
+    <figure class="figure mb-4" style="max-width: 220px;">
+      <img src="{{ '/assets/images/dorothy-mcmillan.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Dorothy McMillan, music director at Bethany Lutheran" loading="lazy">
+    </figure>
+  </div>
+  <div class="col-md-8">
+    <p>Singer, songwriter/composer, instrumentalist, arranger, Dorothy has been involved in music for many years. She has directed music and various music groups in many venues, but by far her passion is music unto the Lord! Being called to serve music in the church, Dorothy has led music as a worship and music director for over 20 years, working with praise teams, choirs, soloists and providing music for congregational singing each week.</p>
+  </div>
+</div>
 
 ## Get in Touch
 
