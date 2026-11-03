@@ -9,11 +9,11 @@ Bethany's building is a resource for the whole community. We host weddings, fune
 
 ## Spaces Available
 
-### Sanctuary
+## Sanctuary
 
 Seats up to **150**. Available for weddings, funerals, and other ceremonies. Equipped with piano, organ, and microphones. A musician can be arranged, and a sound technician is available for a small fee.
 
-### Fellowship Hall
+## Fellowship Hall
 
 Seats up to **120**. Well suited for receptions, parties, celebrations, and larger meetings. Full kitchen access including refrigerator, double-oven stove, and dishwasher. A portable coffee station is available.
 
@@ -22,7 +22,7 @@ Seats up to **120**. Well suited for receptions, parties, celebrations, and larg
   <figcaption class="figure-caption">The Fellowship Hall hosts receptions, parties, and community gatherings.</figcaption>
 </figure>
 
-### Faith Room
+## Faith Room
 
 Seats up to **15**. A smaller classroom-style space for study groups, classes, and craft activities.
 
