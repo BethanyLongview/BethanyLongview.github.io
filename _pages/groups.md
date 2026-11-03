@@ -7,6 +7,14 @@ order: 8
 
 Life at Bethany happens all week long. Beyond Sunday worship, we gather for study, fellowship, prayer, and service — across seasons, ages, and stages of faith. Whether you love digging into scripture, lending a hand, making music, or simply sharing a meal, there's a place for you here. Visitors are welcome at any of our ongoing groups.
 
+## This Month's Calendar
+
+See when everything meets at a glance — <a href="{{ "/assets/images/november-2026-calendar.jpg" | relative_url }}" target="_blank" rel="noopener">click the calendar to open it full size</a>.
+
+<a href="{{ "/assets/images/november-2026-calendar.jpg" | relative_url }}" target="_blank" rel="noopener">
+  <img src="{{ "/assets/images/november-2026-calendar.jpg" | relative_url }}" class="img-fluid rounded w-100 mb-4" style="border:1px solid #eee;" alt="Bethany Lutheran November 2026 calendar of events" loading="lazy">
+</a>
+
 ## Moments at the Lake
 
 A weekly time for scripture and spiritual conversation. **Wednesdays at 1:30 p.m.** — lakeside during warmer months, in the Faith Room when the weather turns colder.
