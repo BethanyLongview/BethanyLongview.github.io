@@ -205,7 +205,7 @@ title: Home
         <div class="row justify-content-start pt-3 pb-3">
           <div class="col-md-12 heading-section heading-section-no-line ftco-animate">
             <h2 class="mb-4">About Bethany</h2>
-            <p>Bethany Lutheran Church has served Longview, Washington and the surrounding communities of Kelso, Stella, Rainier, and Kalama from our home in the Columbia Heights neighborhood. We are a congregation of the {{ site.data.site.denomination }}, part of the <a href="{{ site.data.site.synod_url }}">{{ site.data.site.synod }}</a>.</p>
+            <p>Bethany Lutheran Church has served Longview, Washington and the surrounding communities of Kelso, Stella, Rainier, and Kalama from our home in the Columbia Heights neighborhood. We are a congregation of the {{ site.data.site.denomination }}, part of the {{ site.data.site.synod }} (<a href="{{ site.data.site.synod_url }}" target="_blank" rel="noopener">swwasynod.org</a>).</p>
             <p><strong>Our Mission:</strong> <em>{{ site.data.site.mission }}</em></p>
             <p><strong>Our Vision:</strong> <em>{{ site.data.site.vision }}</em></p>
             <p><a href="{{ "/about/" | relative_url }}" class="btn btn-primary px-4 py-2">Learn more about Bethany</a>
@@ -293,11 +293,6 @@ title: Home
         <span class="subheading">A glimpse of our worship and life together</span>
       </div>
     </div>
-    <div class="row mb-4">
-      <div class="col-12">
-        {% include map.html aspect="16/9" %}
-      </div>
-    </div>
     <div class="row">
       <div class="col-12">
         <div id="lightgallery" class="row no-gutters lightgallery">
@@ -314,6 +309,11 @@ title: Home
             <img class="img-fluid" src="{{ "/assets/images/worship-congregation.jpg" | relative_url }}" alt="The Bethany congregation gathered for Sunday worship" loading="lazy">
           </a>
         </div>
+      </div>
+    </div>
+    <div class="row mb-4 mt-4">
+      <div class="col-12">
+        {% include map.html aspect="16/9" %}
       </div>
     </div>
   </div>

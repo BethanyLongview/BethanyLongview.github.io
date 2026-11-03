@@ -9,7 +9,7 @@ order: 5
 
 **Pastor**
 
-**Pastor Susan Dollinger** has served as pastor of Bethany Lutheran since 2022. The congregation describes her as a warm, creative person through whom the love of the Lord shines.
+Pastor Susan Dollinger has served as pastor of Bethany Lutheran since 2022. The congregation describes her as a warm, creative person through whom the love of the Lord shines.
 
 <figure class="figure w-100 mb-4">
   <img src="{{ '/assets/images/pastor-baptism.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Pastor Susan Dollinger baptizing a young child at the baptismal font" loading="lazy">
