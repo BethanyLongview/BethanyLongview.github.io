@@ -11,11 +11,11 @@ At Bethany we invite our youngest disciples onto their own journeys of faith —
 
 ## Small Seeds (Elementary)
 
-Games, Bible study, crafts, and time together for our elementary-aged kids. We meet **Saturdays at 12:30 p.m.** for about an hour and a half.
+Games, Bible study, crafts, and time together for our elementary-aged kids. We meet the **second Saturday of each month during the school year, at 10:00 a.m.**
 
 ## Sprouts (Middle & High School)
 
-Our middle and high school youth dig into scripture, ask hard questions, and grow in faith alongside friends. Sprouts also meets **Saturdays at 12:30 p.m.** and forms the core of our **three-year confirmation program**.
+Our middle and high school youth dig into scripture, ask hard questions, and grow in faith alongside friends. Sprouts meets the **second Saturday of each month during the school year, at 12:30 p.m.**, and forms the core of our **three-year confirmation program**.
 
 <figure class="figure w-100 mb-4">
   <img src="{{ '/assets/images/youth-garden-01.jpg' | relative_url }}" class="figure-img img-fluid rounded w-100" alt="Bethany youth planting seeds together at a community garden" loading="lazy">

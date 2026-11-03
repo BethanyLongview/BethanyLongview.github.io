@@ -7,11 +7,11 @@ order: 8
 
 Life at Bethany happens all week long. Beyond Sunday worship, we gather for study, fellowship, prayer, and service — across seasons, ages, and stages of faith. Whether you love digging into scripture, lending a hand, making music, or simply sharing a meal, there's a place for you here. Visitors are welcome at any of our ongoing groups.
 
-## Moments at Bethany
+## Moments at the Lake
 
 A weekly time for scripture and spiritual conversation. **Wednesdays at 1:30 p.m.** — lakeside during warmer months, in the Faith Room when the weather turns colder.
 
-## Sunday Bible Study
+## Sunday Scripture Study
 
 A welcoming, spirit-filled group that gathers with Pastor Susan to dig into God's Word together. Come with your questions, your insights, and your curiosity — it's a wonderful way to grow in faith and in friendship. All are welcome, wherever you are on your journey.
 
