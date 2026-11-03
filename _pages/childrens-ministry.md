@@ -24,7 +24,7 @@ Our middle and high school youth dig into scripture, ask hard questions, and gro
 
 ## Small Seeds and Sprouts Sunday
 
-On the **third Sunday of each month**, kids and youth help lead our 9:30 a.m. worship — reading lessons, lighting candles, and assisting with communion. It's a chance for the whole congregation to experience worship through the eyes of our youngest members.
+**One Sunday each month**, kids and youth help lead our 9:30 a.m. worship — reading lessons, lighting candles, and assisting with communion. It's a chance for the whole congregation to experience worship through the eyes of our youngest members.
 
 ## Get Connected
 

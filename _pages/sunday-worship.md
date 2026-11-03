@@ -23,7 +23,7 @@ We celebrate Holy Communion **every Sunday**, and ours is an **open table**. You
 
 ## Special Sundays
 
-- **Small Seeds and Sprouts Sunday** — On the third Sunday of the month, our children and youth help lead worship, reading lessons, lighting candles, and assisting with communion.
+- **Small Seeds and Sprouts Sunday** — One Sunday a month, our children and youth help lead worship, reading lessons, lighting candles, and assisting with communion.
 - **Fifth Sundays** — When a month has five Sundays, our Worship & Music team leads a lay-led service exploring varied themes, giving congregation members space to share their faith.
 
 ## Joining Online

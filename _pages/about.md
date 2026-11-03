@@ -19,7 +19,7 @@ Bethany Lutheran Church has served Longview, Washington and the surrounding comm
 
 ## What We Believe
 
-As an ELCA congregation, Bethany shares the church's confession of the Triune God and of Jesus Christ as Lord and Savior, with the canonical Scriptures as the inspired Word of God. With Lutherans around the world, we trust that we are saved by **God's grace through faith** — a free gift, not something we earn. God meets us in the **means of grace**: the Word proclaimed, the waters of Holy Baptism, and the bread and wine of Holy Communion.
+As an ELCA congregation, Bethany shares the church's confession of the Triune God and of Jesus Christ as Lord and Savior, with the canonical Scriptures as the inspired Word of God. With Lutherans around the world, we trust that we are saved by God's grace through faith — a free gift, not something we earn. God meets us in the means of grace: the Word proclaimed, the waters of Holy Baptism, and the bread and wine of Holy Communion.
 
 To learn more about our shared confession, see the ELCA's [Faith Tradition page](https://www.elca.org/about/what-we-believe/elca-faith-tradition).
 
