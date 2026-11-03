@@ -15,11 +15,11 @@ See when everything meets at a glance — <a href="{{ "/assets/images/november-2
   <img src="{{ "/assets/images/november-2026-calendar.jpg" | relative_url }}" class="img-fluid rounded w-100 mb-4" style="border:1px solid #eee;" alt="Bethany Lutheran November 2026 calendar of events" loading="lazy">
 </a>
 
-## Moments at the Lake
+## Moments at the Lake (Sunday Scripture Study)
 
 A weekly time for scripture and spiritual conversation. **Wednesdays at 1:30 p.m.** — lakeside during warmer months, in the Faith Room when the weather turns colder.
 
-## Sunday Scripture Study
+## Sunday Bible Study
 
 A welcoming, spirit-filled group that gathers with Pastor Susan to dig into God's Word together. Come with your questions, your insights, and your curiosity — it's a wonderful way to grow in faith and in friendship. All are welcome, wherever you are on your journey.
 

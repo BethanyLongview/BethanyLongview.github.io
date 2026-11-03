@@ -11,7 +11,7 @@ order: 1
   <figcaption class="figure-caption">A family sharing love and care — the people of Bethany Lutheran.</figcaption>
 </figure>
 
-Bethany Lutheran Church has served Longview, Washington and the surrounding communities of Kelso, Stella, Rainier, and Kalama from our home in the Columbia Heights neighborhood. We are a congregation of the Evangelical Lutheran Church in America (ELCA), part of the [Southwestern Washington Synod](https://swwasynod.org/) and the Lower Columbia Conference.
+Bethany Lutheran Church has served Longview, Washington and the surrounding communities of Kelso, Stella, Rainier, and Kalama from our home in the Columbia Heights neighborhood. We are a congregation of the Evangelical Lutheran Church in America (ELCA), part of the Southwestern Washington Synod ([swwasynod.org](https://swwasynod.org/)) and the Lower Columbia Conference.
 
 **Our Mission:** *We are a family sharing love and care, where all are welcome as Christ has welcomed us.*
 

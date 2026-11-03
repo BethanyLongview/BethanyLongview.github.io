@@ -34,7 +34,7 @@ Pastor Susan is available to officiate both on-site and off-site weddings and fu
 
 Rates and policies vary by space and event. Please contact the church office for current pricing and details.
 
-## Booking
+## To Learn More
 
 To check availability or reserve a space, contact the church office.
 
