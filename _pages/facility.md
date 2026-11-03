@@ -41,5 +41,3 @@ To check availability or reserve a space, contact the church office.
 - **Phone:** 360-577-8240
 - **Email:** [secretary@bethanylongview.org](mailto:secretary@bethanylongview.org)
 - **Office hours:** Tuesday, Wednesday, Thursday — 9:00 a.m. to 3:00 p.m.
-
-*[Facility Use Request form will be added here once the Formspree form is set up.]*
