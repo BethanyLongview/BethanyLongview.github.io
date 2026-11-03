@@ -231,7 +231,7 @@ accept or reject it.** Nothing reaches the live site until you commit and sync.
 | Volunteer opportunities | add a file to `_volunteer/` |
 | Page text (About, Worship, Pastor, Facility, Groups…) | the matching file in `_pages/` |
 | FISH distribution dates | `_pages/groups.md` |
-| Home-page seasonal events (e.g. Summer Surge Series) | `index.html` |
+| Home-page calendar & announcements | images in `assets/images/` (see 7e) |
 | Home hero / section photos | `index.html` |
 | Navigation menu | `_includes/header.html` |
 | Footer | `_includes/footer.html` |
@@ -337,28 +337,38 @@ to change those.
 The text is **Markdown**: `##` starts a heading, `**stars**` make text bold, and a blank
 line separates paragraphs.
 
-### e. Home-page seasonal events
+### e. Home-page calendar and announcements
 
-The colorful event cards live in `index.html`, in the section that starts with
-`<section class="ftco-section summer-surge">`. Each card is one block like:
+The home page shows this month's **calendar** alongside a couple of **announcement
+sheets**, side by side — each one clickable to open full size. They're simply images that
+live in `assets/images/`:
 
-```html
-<div class="ss-card">
-  <div class="ss-card-top" style="background:#c98bb9;">
-    <span class="ss-date">July 8</span>
-  </div>
-  <div class="ss-card-body">
-    <h3>Campfire Stories with S'mores</h3>
-    <p>Pastor Susan leads us in storytelling…</p>
-  </div>
-</div>
-```
+- `november-2026-calendar.jpg` — the monthly calendar
+- `announcement-weekly.jpg` — the weekly newsletter / announcements sheet
+- `announcement-sip-craft.jpg` — a featured event flyer
 
-To update for a new season, change the date, title, and description in each card. This is
-a good one to hand to Copilot rather than editing by hand.
+Because they're dated, they need swapping as the month and week roll over. The simplest
+routine is to **keep the same file name**, so nothing in `index.html` has to change — you
+just replace the picture.
 
-> **Be careful with HTML edits.** Every opening tag (`<div>`) needs its matching closing
-> tag (`</div>`). If something looks broken after you push, see Section 9.
+**You don't have to run anything yourself.** Save the new calendar or flyer into your
+**Downloads** folder — an image *or* a PDF both work — then open Copilot Chat and paste a
+prompt like:
+
+> There's a new monthly calendar in my Downloads called **`December Calendar.pdf`**.
+> Convert it to a web-sized image and replace
+> `assets/images/november-2026-calendar.jpg` on the home page. If the file name should
+> change for the new month, update the reference in `index.html` to match.
+
+Copilot will use **Ghostscript** (to turn a PDF page into an image) and **ImageMagick**
+(to resize it) — the same tools you installed in Sections 2d and 2e — to make a small,
+fast-loading image and drop it in `assets/images/`. Review the change, then **Commit** and
+**Sync Changes** as usual.
+
+> **Tip:** keeping the file name the same (always `announcement-weekly.jpg`, for example)
+> is the easiest path — Copilot overwrites the old image and nothing else needs touching.
+> If you'd prefer the name to carry the date, just say so and Copilot will update the
+> `index.html` reference too.
 
 ### f. Working with images
 
